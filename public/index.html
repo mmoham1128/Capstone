@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Shows</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bingeworthy Tv Shows</h1>
+    </header>
+    <main>
+
+    <form>
+        <input 
+            type='text'
+            id="name"
+            placeholder='Name of the show'/>
+        <input 
+            type='text'
+            id="rating"
+            placeholder='What is the rating?'/>
+        <input 
+            type='text'
+            id="img"
+            placeholder='Paste an image URL'/>
+        <button>add show</button>
+
+        <!-- <div class="rating">
+            <input type='radio' hidden name='rate' id='rating-opt5' data-idx='0'>	
+            <label for='rating-opt5'><span>Very satisfied</span></label>
+       
+            <input type='radio' hidden name='rate' id='rating-opt4' data-idx='1'>
+            <label for='rating-opt4'><span>Somewhat satisfied</span></label>
+       
+            <input type='radio' hidden name='rate' id='rating-opt3' data-idx='2'>
+            <label for='rating-opt3'><span>Neutral</span></label>
+       
+            <input type='radio' hidden name='rate' id='rating-opt2' data-idx='3'>
+            <label for='rating-opt2'><span>Dissatisfied</span></label> -->
+       
+            <!-- <input type='radio' hidden name='rate' id='rating-opt1' data-idx='4'>
+            <label for='rating-opt1'><span>Very Dissatisfied</span></label> -->
+          <!-- </div> -->
+        
+    </form>
+
+    <section id="shows-container"></section>
+
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+

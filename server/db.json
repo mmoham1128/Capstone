@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "name": "Ozark",
+      "rating": 8.5,
+      "imageURL" : "https://netflixjunkie.com/wp-content/uploads/2022/02/Ozark-scaled-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "The Chi",
+      "rating": 7.5 ,
+      "imageURL" : "https://flxt.tmsimg.com/assets/p19754404_b_v10_ab.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Power",
+      "rating": 8.5,
+      "imageURL" : "https://ntvb.tmsimg.com/assets/p10426936_b_h8_an.jpg?w=960&h=540"
+    },
+    {
+    "id": 4,
+      "name": "Raising Kanan",
+      "rating": 7.5,
+      "imageURL" : "https://www.michigansportszone.com/wp-content/uploads/2021/12/p19307292_b_h8_aa.jpg"
+
+    }
+
+
+
+    
+  ]
