@@ -30,19 +30,25 @@ function submitHandler(e) {
     imageURL.value = ''
 }
 
+//function that targets the specific card you are in 
+//You can maybe do something like if event.current.target then change the rating
+
+
+
+
 function createShowCard(shows) {
     const showCard = document.createElement('div')
     showCard.classList.add('show-card')
 
     showCard.innerHTML = `<img alt='show cover image' src=${shows.imageURL} class="show-cover-image"/>
-    <p class="name">${shows.name}</p>
+    <br/> <p class="name">${shows.name}</p> <br/> <br/>
     <div class="btns-container">
         <button onclick="updateShow(${shows.id}, 'minus')">-</button>
-        <p class="show-rating">${shows.rating}</p>
+         <p class="show-rating">${shows.rating}</p>
         <button onclick="updateShow(${shows.id}, 'plus')">+</button>
-    </div>
+     </div>
     <button onclick="deleteShow(${shows.id})">delete</button>
-    <div class="rating">
+    <br/><br/> <div class="rating">
             <input type='radio' hidden name='rate' id='rating-opt5' data-idx='0'>	
             <label for='rating-opt5'><span>Really Enjoyed</span></label>
        
@@ -69,6 +75,7 @@ function displayShows(arr) {
     for (let i = 0; i < arr.length; i++) {
         createShowCard(arr[i])
     }
+
 }
 
 form.addEventListener('submit', submitHandler)

@@ -6,12 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Popular Shows</title>
     <link rel="stylesheet" href="./styles.css">
+    <nav>
+        <a href="https://www.ipsos.com/en-us/news-polls/american-tv-viewing-habits-2021">
+            <mark> Click Here To See The Average Americans TV Habits </mark>
+     </a>
+       </nav>
 </head>
 <body>
     <header>
-        <h1>Bingeworthy Tv Shows</h1>
-    </header>
+        <h1>Bingeworthy TV Shows</h1>
+        </header>
+        
+
+
     <main>
+
+        <div id="form-box">
 
     <form>
         <input 
@@ -46,9 +56,18 @@
           <!-- </div> -->
         
     </form>
-
+</div>
+    
     <section id="shows-container"></section>
+<!-- So above where it says shows-container is the empty body you are appending the new cards to
+This is happening with the createShowCard function, where you are creading a INDIVIDUAL showcard, that you are adding to with
+the inner html. 
 
+We are adding the show name, id, and the rating that the person submits through the input fields
+
+
+
+-->
     </main>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
